@@ -4,7 +4,7 @@
 
 ### TEMA DEL PROYECTO
 
-Desarrollo de una aplicación que acceda a una base de datos multidimensional utilizando herramientas de software libre
+Desarrollo de una aplicación que acceda a una base de datos multidimensional utilizando herramientas de software libre.
 
 ### Objetivos del Proyecto
 
@@ -26,12 +26,10 @@ Los tipos de reportes que deberán presentar son:
 • Con gráficos de barras
 • Con gráficos tipo pastel
 ```
-Además, los reportes tienen que constar de al menos 3 ejes de análisis y deberán ser desarrollados en Pentaho Report Designer (PRD)
+Además, los reportes tienen que constar de al menos 3 ejes de análisis y deberán ser desarrollados en Pentaho Report Designer (PRD).
 
 ### Módulo de invitado
-Este módulo se accede sin necesidad de autenticación. Muestra información básica de la aplicación para visitantes. Contiene un resumen de los indicadores que maneja
-el sistema y gráficas básicas. Los visitantes en esta parte no pueden aplicar filtros ni generar reportes. También debe mostrar información sobre los autores del sistema
-y los enlaces al repositorio de software.
+Este módulo se accede sin necesidad de autenticación. Muestra información básica de la aplicación para visitantes. Contiene un resumen de los indicadores que maneja el sistema y gráficas básicas. Los visitantes en esta parte no pueden aplicar filtros ni generar reportes. También debe mostrar información sobre los autores del sistema y los enlaces al repositorio de software.
 
 
 ## Requerimientos no Funcionales
@@ -45,7 +43,7 @@ y los enlaces al repositorio de software.
 • Evidenciar la participación de todos los miembros en el desarrollo del proyecto.
 ```
 
-### _Sistemas de Información_
+### _Sistemas de Información:_
 
 ```
 • Usar como lenguaje de programación JSF- JavaServer Faces
