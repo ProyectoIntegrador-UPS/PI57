@@ -1,4 +1,4 @@
-# Proyecti Integrador - Periodo 57
+# Proyecto Integrador - Periodo 57
 Publicacion cientifica sobre Covid 19
 ## 
 
