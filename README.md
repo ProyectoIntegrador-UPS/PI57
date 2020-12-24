@@ -1,4 +1,4 @@
-# PI57
+# Proyecti Integrador - Periodo 57
 Publicacion cientifica sobre Covid 19
 ## 
 
