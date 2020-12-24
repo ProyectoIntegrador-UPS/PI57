@@ -1,6 +1,6 @@
 # Proyecto Integrador - Periodo 57
 
-## Publicacion cientifica sobre Covid 19
+## Publicacion cientifica sobre "Covid-19"
 
 ### TEMA DEL PROYECTO
 
