@@ -59,7 +59,7 @@ Este módulo se accede sin necesidad de autenticación. Muestra información bá
 ## Autores 
 
 
-* **Lomas Alvaro** - *Documentación y Trabajo Inicial* - [Alvaro.Lomas](https://github.com/alvaro.lomas)
+* **Lomas Alvaro** - *Documentación y Trabajo Inicial* - [Alvaro Lomas](https://github.com/AlvaroLomas)
 * **Mariño Daniel** - *Trabajo Inicial* - [ejemplo](#fulanito-de-tal)
 * **Pillajo Jhony** - *Trabajo Inicial* - [ejemplo](#fulanito-de-tal)
-* **Sarmiento Steven** - *Documentación y Trabajo Inicial* - [ejemplo](#fulanito-de-tal)
+* **Sarmiento Steven** - *Documentación y Trabajo Inicial* - [Steven Sarmiento](https://github.com/StevenSarmiento1)
