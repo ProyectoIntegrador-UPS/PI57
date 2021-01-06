@@ -6,7 +6,7 @@
 
 Desarrollo de una aplicación que acceda a una base de datos multidimensional utilizando herramientas de software libre.
 
-### Objetivos del Proyecto
+### Descripción del Proyecto
 
 El proyecto integrador se compone de dos partes. La primera es un sistema donde se aplicará los conocimientos de Sistemas de Información y Gestión de Base de Datos; mientras que, la segunda parte es la gestión del proyecto, el cual se manejará como si se tratara de un proyecto de Software Libre.
 Se debe gestionar una base de datos multidimensional, cuya información provenga de diversas fuentes de datos. Para esto se utilizará las herramientas de Pentaho Community Server. La información sobre la cual se va a tratar, recopila data sobre papers de artículos cientificos del covid-19, la misma está contenida en una base de datos, la cual será presentada utilizando una aplicación web con reportes en PDF y gráficos estadísticos.
