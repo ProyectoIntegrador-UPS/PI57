@@ -60,6 +60,6 @@ Este módulo se accede sin necesidad de autenticación. Muestra información bá
 
 
 * **Lomas Alvaro** - *Documentación y Trabajo Inicial* - [Alvaro Lomas](https://github.com/AlvaroLomas)
-* **Mariño Daniel** - *Trabajo Inicial* - [ejemplo](#fulanito-de-tal)
-* **Pillajo Jhony** - *Trabajo Inicial* - [ejemplo](#fulanito-de-tal)
+* **Mariño Daniel** - *Documentación y Trabajo Inicial* - [Daniel Mariño](https://github.com/dmarinoz)
+* **Pillajo Jhony** - *Documentación y Trabajo Inicial* - [Jhony Pillajo](https://github.com/jpillajo)
 * **Sarmiento Steven** - *Documentación y Trabajo Inicial* - [Steven Sarmiento](https://github.com/StevenSarmiento1)
