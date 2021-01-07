@@ -68,11 +68,139 @@
 			<to-view-id>/prueba.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>about us.xhtml</display-name>
+		<from-view-id>/about us.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>conocenos.xhtml</display-name>
+		<from-view-id>/conocenos.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>mision.xhtml</display-name>
+		<from-view-id>/mision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>vision.xhtml</display-name>
+		<from-view-id>/vision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>formulario.xhtml</display-name>
+		<from-view-id>/formulario.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>login.xhtml</display-name>
+		<from-view-id>/login.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>registro.xhtml</display-name>
+		<from-view-id>/registro.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>prueba.xhtml</display-name>
+		<from-view-id>/prueba.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarPrueba</from-outcome>
+			<to-view-id>/prueba.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 	
 	<!-- IR PÁGINA QUIÉNES SOMOS -->
 	<navigation-rule>
 		<display-name>index.xhtml</display-name>
 		<from-view-id>/index.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>about us.xhtml</display-name>
+		<from-view-id>/about us.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>conocenos.xhtml</display-name>
+		<from-view-id>/conocenos.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>mision.xhtml</display-name>
+		<from-view-id>/mision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>vision.xhtml</display-name>
+		<from-view-id>/vision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>formulario.xhtml</display-name>
+		<from-view-id>/formulario.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>login.xhtml</display-name>
+		<from-view-id>/login.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>registro.xhtml</display-name>
+		<from-view-id>/registro.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarNosotros</from-outcome>
+			<to-view-id>/conocenos.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>prueba.xhtml</display-name>
+		<from-view-id>/prueba.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>avanzarNosotros</from-outcome>
 			<to-view-id>/conocenos.xhtml</to-view-id>
@@ -88,6 +216,70 @@
 			<to-view-id>/registro.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>about us.xhtml</display-name>
+		<from-view-id>/about us.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>conocenos.xhtml</display-name>
+		<from-view-id>/conocenos.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>mision.xhtml</display-name>
+		<from-view-id>/mision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>vision.xhtml</display-name>
+		<from-view-id>/vision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>formulario.xhtml</display-name>
+		<from-view-id>/formulario.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>login.xhtml</display-name>
+		<from-view-id>/login.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>registro.xhtml</display-name>
+		<from-view-id>/registro.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>prueba.xhtml</display-name>
+		<from-view-id>/prueba.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarRegistro</from-outcome>
+			<to-view-id>/registro.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 	
 	<!-- IR PÁGINA LOGIN -->
 	<navigation-rule>
@@ -98,11 +290,139 @@
 			<to-view-id>/login.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>about us.xhtml</display-name>
+		<from-view-id>/about us.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>conocenos.xhtml</display-name>
+		<from-view-id>/conocenos.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>mision.xhtml</display-name>
+		<from-view-id>/mision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>vision.xhtml</display-name>
+		<from-view-id>/vision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>formulario.xhtml</display-name>
+		<from-view-id>/formulario.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>login.xhtml</display-name>
+		<from-view-id>/login.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>registro.xhtml</display-name>
+		<from-view-id>/registro.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>prueba.xhtml</display-name>
+		<from-view-id>/prueba.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarLogin</from-outcome>
+			<to-view-id>/login.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 	
 	<!-- IR PÁGINA FORMULARIO -->
 	<navigation-rule>
 		<display-name>index.xhtml</display-name>
 		<from-view-id>/index.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>about us.xhtml</display-name>
+		<from-view-id>/about us.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>conocenos.xhtml</display-name>
+		<from-view-id>/conocenos.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>mision.xhtml</display-name>
+		<from-view-id>/mision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>vision.xhtml</display-name>
+		<from-view-id>/vision.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>formulario.xhtml</display-name>
+		<from-view-id>/formulario.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>login.xhtml</display-name>
+		<from-view-id>/login.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>registro.xhtml</display-name>
+		<from-view-id>/registro.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>avanzarFormulario</from-outcome>
+			<to-view-id>/formulario.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>prueba.xhtml</display-name>
+		<from-view-id>/prueba.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>avanzarFormulario</from-outcome>
 			<to-view-id>/formulario.xhtml</to-view-id>
