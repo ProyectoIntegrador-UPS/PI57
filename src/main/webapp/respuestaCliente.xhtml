@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<h:head>
+	<style>
+	.Bimage{background-image:url("images/background2.png");}
+	</style>
+	<link href="estilos.css" rel="stylesheet" type="text/css" />
+	
+	
+	
+	</h:head>
+	<h:body styleClass="Bimage">
+		<a href="index.jsf"><img src="images/banner2.png" width="1520px"></img></a>
+		<p:menubar>
+		        <p:submenu label="Inicio" icon="pi pi-pencil">
+		            <p:menuitem value="Presentación" url="#" icon="pi pi-angle-double-left" />
+		            <p:menuitem value="Repositorio" url="https://github.com/ProyectoIntegrador-UPS/PI57" icon="pi pi-angle-double-right" />
+		             <p:menuitem value="Sitio Web Wordpress" url="https://wp.me/PcKqY2-5" icon="pi pi-angle-double-right" target="_blank"/>
+		        </p:submenu>
+		 		
+		 		<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/JSF_JPA_CRUD/conocenos.jsf" icon="pi pi-times"/>
+	 		
+	 		<p:menuitem  value="Gráficos" url="http://localhost:8080/JSF_JPA_CRUD/prueba.jsf" icon="pi pi-times" />
+	 		 <p:menuitem  value="Comentarios" url="http://localhost:8080/JSF_JPA_CRUD/formulario.jsf" icon="pi pi-times" />
+	        <p:submenu label="Acceso al Portal" icon="pi pi-question" style="float:right">
+	            <p:menuitem value="Registro" url="http://localhost:8080/JSF_JPA_CRUDregistro.jsf" />
+	            <p:menuitem value="Login" url="http://localhost:8080/JSF_JPA_CRUD/login.jsf" />
+	        </p:submenu>
+	    </p:menubar>
+	    
+<h:form> 
+<p:panel header="DATOS" style="padding: 800" toggleable="true">
+<h:dataTable value="${listData}" var="usuario"
+			border="1">
+
+			<h:column>
+				<f:facet name="header">Nombres</f:facet>
+				<h:outputText value="#{usuario.nombres}"></h:outputText>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Apellidos</f:facet>
+				<h:outputText value="#{usuario.apellidos}"></h:outputText>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Direccion</f:facet>
+				<h:outputText value="#{usuario.direccion}"></h:outputText>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Email</f:facet>
+				<h:outputText value="#{usuario.email}"></h:outputText>
+			</h:column>
+			<h:column>
+				<f:facet name="header">Teléfono</f:facet>
+				<h:outputText value="#{usuario.telefono}"></h:outputText>
+			</h:column>
+
+</h:dataTable>
+</p:panel>
+</h:form>  
+
+<h:form>
+
+		<p:panel header="REPORTES" style="padding: 800" toggleable="true">
+
+			<table border="1" bordercolor="666633" cellpadding="2"
+				cellspacing="2">
+				<tr>
+					<td><strong>No.</strong></td>
+					<td><strong>Descripción</strong></td>
+
+				</tr>
+
+				<tr>
+					<p:tab title="Header I">
+
+						<td>1</td>
+						<td><a
+							href="http://localhost:8080/JSF_JPA_CRUD/diagramaFuentes.jsf"
+							value="Mostrar">CANTIDAD TOTAL DE ARTICULOS DE CADA FUENTE DE
+								REPOSITORIO</a></td>
+
+
+					</p:tab>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><a
+						href="http://localhost:8080/JSF_JPA_CRUD/diagramaIdentificador.jsf"
+						value="Mostrar">LA CANTIDAD TOTAL DE ARTICULOS CON
+							IDENTIFICADOR</a></td>
+
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td><a
+						href="http://localhost:8080/JSF_JPA_CRUD/diagramaRevistas.jsf"
+						value="Mostrar">LAS REVISTAS CIENTÍFICAS CON MAS
+							PUBLICACIONES-AÑO 2019</a></td>
+
+				</tr>
+
+				<tr>
+					<td>4</td>
+					<td><a
+						href="http://localhost:8080/JSF_JPA_CRUD/diagramaAutores.jsf"
+						value="Mostrar">LOS AUTORES QUE MAS PUBLICACIONES HAN
+							REALIZADO</a></td>
+				</tr>
+
+
+				<tr>
+					<td>5</td>
+					<td><a
+						href="http://localhost:8080/JSF_JPA_CRUD/diagramaPublicaciones.jsf"
+						value="Mostrar">MAYOR NUMERO PUBLICACIONES DE REVISTAS
+							CIENTIFICAS EN LA DECADA 90</a></td>
+				</tr>
+
+				<tr>
+					<td>6</td>
+					<td><a
+						href="http://localhost:8080/reportesOFICIAL/faces/reporte7.xhtml"
+						value="Mostrar">NUMERO DE AUTORES INVOLUCRADOS EN CADA
+							PUBLICACION-AÑO</a></td>
+				</tr>
+
+				<tr>
+					<td>7</td>
+					<td><a
+						href="http://localhost:8080/reportesOFICIAL/faces/reporte8.xhtml"
+						value="Mostrar">NUMERO DE VECES EN LAS QUE SE USO UNA LICENCIA</a></td>
+				</tr>
+
+				<tr>
+					<td>8</td>
+					<td><a
+						href="http://localhost:8080/reportesOFICIAL/faces/reporte9.xhtml"
+						value="Mostrar">PERIODOS DE TIEMPO DONDE SE HAN REALIZADO MAS
+							PUBLICACIONES - DECADA</a></td>
+
+				</tr>
+
+				<tr>
+					<td>9</td>
+					<td><a
+						href="http://localhost:8080/JSF_JPA_CRUD/diagramaPublicacionesResumen.jsf"
+						value="Mostrar">PUBLICACIONES CON RESUMEN ABSTRACT</a></td>
+				</tr>
+			</table>
+
+
+
+		</p:panel>
+	</h:form>
+
+	
+<div id="footer">
+        <p:dock position="top" >
+    <p:menuitem value="Facebook" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/>
+    <p:menuitem value="Twitter" icon="images/twitter.png" url="http://www.twitter.com" target="_blank"/>
+    <p:menuitem value="Youtube" icon="images/youtube.png" url="http://www.youtube.com" target="_blank"/>
+    <p:menuitem value="Github" icon="images/github.png" url="https://github.com/ProyectoIntegrador-UPS/PI57" target="_blank"/>
+    <p:menuitem value="Wordpress" icon="images/wordpress.png" url="https://wp.me/PcKqY2-5" target="_blank"/>
+</p:dock>
+</div>
+<br></br>
+
+
+   
+   
+       
+<div style="text-align: center; font-size: 1em;"><b>Versión: 1.0 | Copyright© 2020. Know COVID. Todos los derechos reservados. </b></div>
+	
+<div style="text-align: center; font-size: 1em;"><b>Diseño realizado por Saurios INC.</b></div>
+</h:body>
+</html>

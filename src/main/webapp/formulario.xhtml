@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+      
+	<h:head>
+	<style>
+	.Bimage{background-image:url("images/background2.png");}
+	</style>
+	<link href="estilos.css" rel="stylesheet" type="text/css" />
+	
+	
+	
+	</h:head>
+	<h:body styleClass="Bimage">
+		<a href="index.jsf"><img src="images/banner2.png" width="1520px"></img></a>
+		<p:menubar styleClass="menubar">
+	        <p:submenu label="Inicio" icon="pi pi-pencil" >
+	            <p:menuitem value="Presentación" url="http://localhost:8080/JSF_JPA_CRUD//presentacion.jsf" icon="pi pi-angle-double-left" />
+	            <p:menuitem value="Repositorio" url="https://github.com/ProyectoIntegrador-UPS/PI57" icon="pi pi-angle-double-right" />
+				 <p:menuitem value="Sitio Web Wordpress" url="https://wp.me/PcKqY2-5" icon="pi pi-angle-double-right" target="_blank"/>       
+	        </p:submenu>
+	 		
+			<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/JSF_JPA_CRUD/conocenos.jsf" icon="pi pi-times"/>
+	 		
+	 		<p:menuitem  value="Gráficos" url="http://localhost:8080/JSF_JPA_CRUD//prueba.jsf" icon="pi pi-times" />
+	 		 <p:menuitem  value="Comentarios" url="http://localhost:8080/JSF_JPA_CRUD//formulario.jsf" icon="pi pi-times" />
+	        <p:submenu label="Acceso al Portal" icon="pi pi-question" style="float:right">
+	            <p:menuitem value="Registro" outcome="#{clienteBean.nuevo()}"/>
+	            <p:menuitem value="Login" url="http://localhost:8080/JSF_JPA_CRUD/faces/login.jsp" />
+	        </p:submenu>
+	    </p:menubar>
+	    
+	    <table>
+<h:form>
+
+
+		<p:panel id="panel" header="Dudas o Sugerencias">
+
+     <div class="p-field p-grid">
+        <p:outputLabel for="nombre" styleClass="p-col-fixed" style="width:100px" value="Nombre" />
+        <div class="p-col">
+            <p:inputText id="nombre" />
+        </div>
+    </div>
+    <div class="p-field p-grid">
+        <p:outputLabel for="apellidos" styleClass="p-col-fixed" style="width:100px" value="Apellidos" />
+        <div class="p-col">
+            <p:inputText id="apellidos" />
+        </div>
+    </div>
+    <div class="p-fieldp p-grid">
+            <p:outputLabel for="ciudad" styleClass="p-col-fixed" style="width:100px" value="Ciudad" />
+            <div class="p-col">
+            <p:selectOneMenu id="ciudad">
+                <f:selectItem itemLabel="---Seleccione" itemValue="#{null}" noSelectionOption="true"/>
+                <f:selectItem itemLabel="Quito" itemValue="Quito" />
+                <f:selectItem itemLabel="Guayaquil" itemValue="Guayaquil" />
+                <f:selectItem itemLabel="Cuenca" itemValue="Cuenca" />
+            </p:selectOneMenu>
+        </div>
+    </div>
+    <div class="p-field p-grid">
+            <p:outputLabel for="sugerencias" styleClass="p-col-fixed" style="width:100px" value="Sugerencias" />
+            <div class="p-col">
+            <p:inputTextarea id="sugerencias" placeholder="Sugerencias" rows="4" columns="10"/>
+        </div>
+    </div>
+        
+        <p:button value="Submit" />
+
+		</p:panel>
+		</h:form>
+</table>
+	    
+	    
+	    
+	    
+        <div id="footer">
+        <p:dock position="top" >
+    <p:menuitem value="Facebook" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/>
+    <p:menuitem value="Twitter" icon="images/twitter.png" url="http://www.twitter.com" target="_blank"/>
+    <p:menuitem value="Youtube" icon="images/youtube.png" url="http://www.youtube.com" target="_blank"/>
+    <p:menuitem value="Github" icon="images/github.png" url="https://github.com/ProyectoIntegrador-UPS/PI57" target="_blank"/>
+    <p:menuitem value="Wordpress" icon="images/wordpress.png" url="https://wp.me/PcKqY2-5" target="_blank"/>
+</p:dock>
+</div>
+<br></br>
+
+
+   
+   
+       
+<div style="text-align: center; font-size: 1em;"><b>Versión: 1.0 | Copyright© 2020. Know COVID. Todos los derechos reservados. </b></div>
+	
+<div style="text-align: center; font-size: 1em;"><b>Diseño realizado por Saurios INC.</b></div>
+</h:body>
+</html>

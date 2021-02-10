@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jboss.m2"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-14.0.2">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/primefaces-8.0.jar" sourcepath="C:/Users/USUARIO/.m2/repository/org/primefaces/primefaces/8.0/primefaces-8.0-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/byte-buddy-1.8.17.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/classmate-1.3.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/dom4j-2.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/hibernate-commons-annotations-5.0.4.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/hibernate-core-5.3.7.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jandex-2.0.5.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/javassist-3.23.1-GA.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/javax.persistence-api-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jboss-logging-3.3.2.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jsp-api-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jstl-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/protobuf-java-3.6.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/servlet-api-2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jboss-ejb-api_3.2_spec-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jakarta.inject-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/Daniel/Documents/5to Semestre/Integrador/CRUD-Java-Web-JSF-JPA-master/src/main/webapp/WEB-INF/Lib/jakarta.enterprise.cdi-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/eclipse-workspace/site_chart/WebContent/WEB-INF/lib/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/eclipse-workspace/site_chart/WebContent/WEB-INF/lib/itextpdf-5.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Usuario/eclipse-workspace/site_chart/WebContent/WEB-INF/lib/poi-ooxml-3.9-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

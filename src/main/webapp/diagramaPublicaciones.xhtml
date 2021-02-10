@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:a="http://primefaces.org/ui">
+<h:head>
+	<style>
+	.Bimage{background-image:url("images/background2.png");}
+	</style>
+	<link href="estiloss.css" rel="stylesheet" type="text/css" />
+	</h:head>
+	<h:body styleClass="Bimage">
+		<a href="index.jsf"><img src="images/banner2.png" width="1520px" id="banner"></img></a>
+		
+		<p:menubar styleClass="menubar">
+	        <p:submenu label="Inicio" icon="pi pi-pencil" >
+	            <p:menuitem value="Presentación" url="http://localhost:8080/Proyecto_COVID/presentacion.jsf" icon="pi pi-angle-double-left" />
+	            <p:menuitem value="Repositorio" url="https://github.com/ProyectoIntegrador-UPS/PI57" icon="pi pi-angle-double-right" target="_blank"/>
+	             <p:menuitem value="Sitio Web Wordpress" url="https://wp.me/PcKqY2-5" icon="pi pi-angle-double-right" target="_blank"/>
+	        
+	        </p:submenu>
+	 		
+			<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/Proyecto_COVID/conocenos.jsf" icon="pi pi-times"/>
+	 		
+	 		<p:menuitem  value="Gráficos" url="http://localhost:8080/Proyecto_COVID/prueba.jsf" icon="pi pi-times" />
+	 		 <p:menuitem  value="Comentarios" url="http://localhost:8080/Proyecto_COVID/formulario.jsf" icon="pi pi-times" />
+	        <p:submenu label="Acceso al Portal" icon="pi pi-question" style="float:right">
+	            <p:menuitem value="Registro" url="http://localhost:8080/Proyecto_COVID/registro.jsf" />
+	            <p:menuitem value="Login" url="http://localhost:8080/Proyecto_COVID/login.jsf" />
+	        </p:submenu>
+	    </p:menubar>
+	<h:body>
+		
+			<p:panel header="REPORTE 5" style="padding: 800" toggleable="true">
+
+
+		<p:chart type="bar" model="#{publicaciones.barModel}"></p:chart>
+
+
+
+		<p:tab title="Header I">
+
+			<a href="reportes/r5.pdf" class="btn" download="R5.pdf">Descargar
+				Reporte Aquí</a>
+
+		</p:tab>
+
+	</p:panel>
+	</h:body>
+<div id="footer">
+        <p:dock position="top" >
+    <p:menuitem value="Facebook" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/>
+    <p:menuitem value="Twitter" icon="images/twitter.png" url="http://www.twitter.com" target="_blank"/>
+    <p:menuitem value="Youtube" icon="images/youtube.png" url="http://www.youtube.com" target="_blank"/>
+    <p:menuitem value="Github" icon="images/github.png" url="https://github.com/ProyectoIntegrador-UPS/PI57" target="_blank"/>
+      <p:menuitem value="Wordpress" icon="images/wordpress.png" url="https://wp.me/PcKqY2-5" target="_blank"/>
+    
+</p:dock>
+</div>
+<br></br>   
+       
+<div style="text-align: center; font-size: 1em;"><b>Versión: 1.0 | Copyright© 2020. Know COVID. Todos los derechos reservados. </b></div>
+	
+<div style="text-align: center; font-size: 1em;"><b>Diseño realizado por Saurios INC.</b></div>
+</h:body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+		<h:head>
+	<style>
+	.Bimage{background-image:url("images/background2.png");}
+	</style>
+	<link href="estilos.css" rel="stylesheet" type="text/css" />
+	
+	
+	
+	</h:head>
+	<h:body styleClass="Bimage">
+	<a href="index.jsf"><img src="images/banner2.png" width="1520px"></img></a>
+		<p:menubar>
+	        <p:submenu label="Inicio" icon="pi pi-pencil">
+	           <p:menuitem value="Presentación" url="#" icon="pi pi-angle-double-left" />
+	           <p:menuitem value="Repositorio" url="https://github.com/ProyectoIntegrador-UPS/PI57" icon="pi pi-angle-double-right" />
+	            <p:menuitem value="Sitio Web Wordpress" url="https://wp.me/PcKqY2-5" icon="pi pi-angle-double-right" target="_blank"/>
+	        </p:submenu>
+	 		
+			<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/JSF_JPA_CRUD/conocenos.jsf" icon="pi pi-times"/>
+	 		
+	 		<p:menuitem  value="Gráficos" url="http://localhost:8080/JSF_JPA_CRUD/prueba.jsf" icon="pi pi-times" />
+	 		 <p:menuitem  value="Comentarios" url="http://localhost:8080/JSF_JPA_CRUD/formulario.jsf" icon="pi pi-times" />
+	        <p:submenu label="Acceso al Portal" icon="pi pi-question" style="float:right">
+	            <p:menuitem value="Registro" outcome="#{clienteBean.nuevo()}"/>
+	            <p:menuitem value="Login" url="http://localhost:8080/JSF_JPA_CRUD/faces/login.jsp" />
+	        </p:submenu>
+	    </p:menubar>
+<h:form>
+			<p:panel id="panel" header="Registro de usuario">
+				<h:panelGrid columns="3" cellpadding="5">
+				<p:outputLabel for="txtNombre" value="NOMBRES:" />
+					<p:inputText id="txtNombre" value="#{cliente.nombres}" required="true" requiredMessage="Campo obligatorio" validatorMessage="Ingresar un nombre correcto">
+						<f:validateRegex pattern="[a-zA-Z ]{3,60}" />
+					</p:inputText>
+					<p:message for="txtNombre" display="text" />
+					
+					<p:outputLabel for="txtApellido" value="APELLIDOS:" />
+					<p:inputText id="txtApellido" value="#{cliente.apellidos}" required="true" requiredMessage="Campo obligatorio" validatorMessage="Ingresar un apellido correcto">
+						<f:validateRegex pattern="[a-zA-Z ]{3,60}" />
+					</p:inputText>
+					<p:message for="txtApellido" display="text" />
+					
+				<p:outputLabel for="txtCorreoElectronico" value="CORREO ELECTRÓNICO:" />
+					<p:inputText  id="txtCorreoElectronico" value="#{cliente.email}" required="true" requiredMessage="Campo obligatorio" validatorMessage="Ingrese un correo con el formato correcto: ejemplo@gmail.com">
+						<f:validateRegex pattern=".+[@].+[.].+"></f:validateRegex>
+					</p:inputText>
+					<p:message for="txtCorreoElectronico" display="text" />
+					
+				<p:outputLabel for="txtTelefono" value="TELÉFONO:" />
+					<p:inputText minlength="10" maxlength="10" value="#{cliente.telefono}" id="txtTelefono" required="true" requiredMessage="Campo obligatorio" validatorMessage="El teléfono debe constar de 10 digitos y no letras">
+						<f:validateLength pattern="[0-9]{10}" minimum="10" maximum="10"/>
+					</p:inputText>
+					<p:message for="txtTelefono" display="text" />
+						
+				<p:outputLabel for="txtDireccion" value="DIRECCION:" />
+					<p:inputText id="txtDireccion" value="#{cliente.direccion}" required="true" requiredMessage="Campo obligatorio" validatorMessage="Ingresar una dirección correcta">
+						<f:validateRegex pattern="[a-zA-Z ]{3,60}" />
+					</p:inputText>
+					<p:message for="txtDireccion" display="text" />
+									
+					<p:outputLabel for="txtLogin" value="LOGIN:" />
+					<p:inputText id="txtLogin" value="#{cliente.login}" required="true" requiredMessage="Campo obligatorio" validatorMessage="El usuario debe constar de máximo 10 caracteres sin espacios en blanco ni caracteres especiales">
+					<f:validateLength pattern="[A-Za-z0-9]" minimum="1" maximum="10"/>
+					</p:inputText>
+				<p:message for="txtLogin" display="text" />
+					
+				<p:outputLabel for="txtClave" value="CLAVE:" />
+					<p:inputText id="txtClave" value="#{cliente.password}" required="true" requiredMessage="Campo obligatorio" validatorMessage="La clave debe contener dos números y seis letras">
+						<f:validateRegex pattern="([0-9]{2})([a-zA-Z]{6})"></f:validateRegex>
+					</p:inputText>
+					<p:message for="txtClave" display="text" />
+				</h:panelGrid>
+				<p:commandButton value="Registrar" update="panel" action="#{clienteBean.guardarAdm(cliente)}"/>
+			</p:panel>
+		</h:form>
+		      <div id="footer">
+        <p:dock position="top" >
+    <p:menuitem value="Facebook" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/>
+    <p:menuitem value="Twitter" icon="images/twitter.png" url="http://www.twitter.com" target="_blank"/>
+    <p:menuitem value="Youtube" icon="images/youtube.png" url="http://www.youtube.com" target="_blank"/>
+    <p:menuitem value="Github" icon="images/github.png" url="https://github.com/ProyectoIntegrador-UPS/PI57" target="_blank"/>
+    <p:menuitem value="Wordpress" icon="images/wordpress.png" url="https://wp.me/PcKqY2-5" target="_blank"/>
+</p:dock>
+</div>
+<br></br>
+
+
+   
+   
+       
+<div style="text-align: center; font-size: 1em;"><b>Versión: 1.0 | Copyright© 2020. Know COVID. Todos los derechos reservados. </b></div>
+	
+<div style="text-align: center; font-size: 1em;"><b>Diseño realizado por Saurios INC.</b></div>
+</h:body>
+
+</html>

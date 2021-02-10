@@ -1,0 +1,33 @@
+
+ #footer{
+	height: 52px;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	background: url(images/footer.png) bottom repeat-x;
+}
+
+
+/*Blackquotes*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.otro-blockquote{
+  font-size: 1.1em;
+  width:70%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #fc9ade ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

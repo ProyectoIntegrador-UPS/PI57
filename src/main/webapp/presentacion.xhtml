@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+
+<h:head>
+	<style>
+	.Bimage{background-image:url("images/background2.png");}
+	</style>
+	<link href="estilos.css" rel="stylesheet" type="text/css" />
+	
+</h:head>
+
+<h:body styleClass="Bimage">
+	
+		
+		<a href="index.jsf"><img src="images/banner2.png" width="1520px"></img></a>
+		<p:menubar styleClass="menubar">
+	        <p:submenu label="Inicio" icon="pi pi-pencil" >
+	            <p:menuitem value="Presentación" url="http://localhost:8080/JSF_JPA_CRUD/presentacion.jsf" icon="pi pi-angle-double-left" />
+	            <p:menuitem value="Repositorio" url="https://github.com/ProyectoIntegrador-UPS/PI57" icon="pi pi-angle-double-right" />
+	             <p:menuitem value="Sitio Web Wordpress" url="https://wp.me/PcKqY2-5" icon="pi pi-angle-double-right" target="_blank"/>
+	        </p:submenu>
+	 		
+	 		<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/JSF_JPA_CRUD/conocenos.jsf" icon="pi pi-times"/>
+	 		
+	 		<p:menuitem  value="Gráficos" url="http://localhost:8080/JSF_JPA_CRUD/prueba.jsf" icon="pi pi-times" />
+	 		 <p:menuitem  value="Comentarios" url="http://localhost:8080/JSF_JPA_CRUD/formulario.jsf" icon="pi pi-times" />
+	        <p:submenu label="Acceso al Portal" icon="pi pi-question" style="float:right">
+	            <p:menuitem value="Registro" url="http://localhost:8080/JSF_JPA_CRUD/registro.jsf" />
+	            <p:menuitem value="Login" url="http://localhost:8080/JSF_JPA_CRUD/login.jsf" />
+	        </p:submenu>
+	    </p:menubar>
+
+		<h:outputText value="" />
+
+		<p:tabView>
+		
+		
+			<c:forEach items="#{tabBean.tabs}" var="tabInfo" varStatus="vs">
+				<p:tab title="#{tabInfo.title}">
+					<ui:include src="#{tabInfo.page}.xhtml" />
+				</p:tab>
+			</c:forEach>
+			
+		</p:tabView>
+
+
+<div style="text-align: center; font-size: 1em;"><b>Versión: 1.0 | Copyright© 2020. Know COVID. Todos los derechos reservados. </b></div>
+	
+<div style="text-align: center; font-size: 1em;"><b>Diseño realizado por Saurios INC.</b></div>
+
+
+</h:body>
+</html>

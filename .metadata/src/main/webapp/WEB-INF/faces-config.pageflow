@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16120653525360" configfile="/JSF_JPA_CRUD/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="registro.xhtml" x="1202" y="794" id="pf16125742190380" referenceLink="//@navigationRule.58/@fromViewId|" outlinks="pf16125742190381 pf16125742190382 pf16125742190393 pf16125742190394 pf16125742190395 pf16125742190396 pf16125742190397" inlinks="pf16125742190398 pf16125742190399 pf161257421903910 pf161257421903911 pf161257421903912 pf161257421903913 pf161257421903914 pf161257421903915 pf16125742190394 pf161257421903916" path="/registro.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="respuestaRegistro.xhtml" x="770" y="360" id="pf161257421903917" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf16125742190398 pf161257421903918" inlinks="pf16125742190381" path="/respuestaRegistro.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="login.xhtml" x="986" y="1136" id="pf161257421903919" referenceLink="//@navigationRule.57/@fromViewId|" outlinks="pf161257421903920 pf161257421903921 pf161257421903922 pf161257421903915 pf161257421903923 pf161257421903924 pf161257421903925" inlinks="pf161257421903918 pf161257421903926 pf161257421903927 pf161257421903928 pf161257421903929 pf161257421903930 pf161257421903931 pf161257421903923 pf16125742190395 pf161257421903932" path="/login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="respuestaLogin.xhtml" x="1202" y="1199" id="pf161257421903933" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" inlinks="pf161257421903920" path="/respuestaLogin.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="formulario.xhtml" x="770" y="765" id="pf161257421903934" referenceLink="//@navigationRule.56/@fromViewId|" outlinks="pf161257421903935 pf161257421903936 pf161257421903937 pf161257421903914 pf161257421903931 pf161257421903938 pf161257421903939" inlinks="pf161257421903940 pf161257421903941 pf161257421903942 pf161257421903943 pf161257421903944 pf161257421903945 pf161257421903938 pf161257421903924 pf16125742190396 pf161257421903946" path="/formulario.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="respuestaFormulario.xhtml" x="554" y="563" id="pf161257421903947" referenceLink="//@navigationRule.5/@fromViewId|" outlinks="pf161257421903940" inlinks="pf161257421903935" path="/respuestaFormulario.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="122" y="178" id="pf161257421903948" referenceLink="//@navigationRule.51/@fromViewId|" outlinks="pf161257421903949 pf161257421903950 pf16125742190399 pf161257421903926 pf161257421903941 pf161257421903951" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="prueba.xhtml" x="554" y="1094" id="pf161257421903952" referenceLink="//@navigationRule.59/@fromViewId|" outlinks="pf161257421903953 pf161257421903954 pf161257421903916 pf161257421903932 pf161257421903946 pf161257421903955" inlinks="pf161257421903949 pf161257421903956 pf161257421903957 pf161257421903958 pf161257421903959 pf161257421903936 pf161257421903921 pf16125742190382 pf161257421903953" path="/prueba.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="about us.xhtml" x="122" y="717" id="pf161257421903960" referenceLink="//@navigationRule.52/@fromViewId|" outlinks="pf161257421903956 pf161257421903961 pf161257421903910 pf161257421903927 pf161257421903942 pf161257421903962" path="/about us.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="conocenos.xhtml" x="338" y="1157" id="pf161257421903963" referenceLink="//@navigationRule.53/@fromViewId|" outlinks="pf161257421903957 pf161257421903964 pf161257421903911 pf161257421903928 pf161257421903943 pf161257421903965" inlinks="pf161257421903950 pf161257421903961 pf161257421903964 pf161257421903966 pf161257421903967 pf161257421903937 pf161257421903922 pf16125742190393 pf161257421903954" path="/conocenos.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="mision.xhtml" x="122" y="1101" id="pf161257421903968" referenceLink="//@navigationRule.54/@fromViewId|" outlinks="pf161257421903958 pf161257421903966 pf161257421903912 pf161257421903929 pf161257421903944 pf161257421903969" path="/mision.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="vision.xhtml" x="122" y="1485" id="pf161257421903970" referenceLink="//@navigationRule.55/@fromViewId|" outlinks="pf161257421903959 pf161257421903967 pf161257421903913 pf161257421903930 pf161257421903945 pf161257421903971" path="/vision.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="presentacion.xhtml" x="1418" y="996" id="pf161257421903972" referenceLink="//@navigationRule.60/@navigationCase.0/@toViewId|" outlinks="pf161257421903973" inlinks="pf161257421903951 pf161257421903962 pf161257421903965 pf161257421903969 pf161257421903971 pf161257421903939 pf161257421903925 pf16125742190397 pf161257421903955 pf161257421903973" path="/presentacion.xhtml"/>
+  <links id="pf16125742190381" target="pf161257421903917" source="pf16125742190380" outcome="registrado"/>
+  <links id="pf16125742190398" target="pf16125742190380" source="pf161257421903917" outcome="regresoRegistro"/>
+  <links id="pf161257421903918" target="pf161257421903919" source="pf161257421903917" outcome="avanzarLogin"/>
+  <links id="pf161257421903920" target="pf161257421903933" source="pf161257421903919" outcome="registrado"/>
+  <links id="pf161257421903935" target="pf161257421903947" source="pf161257421903934" outcome="respuestaFormulario"/>
+  <links id="pf161257421903940" target="pf161257421903934" source="pf161257421903947" outcome="regresoFormulario"/>
+  <links id="pf161257421903949" target="pf161257421903952" source="pf161257421903948" outcome="avanzarPrueba"/>
+  <links id="pf161257421903956" target="pf161257421903952" source="pf161257421903960" outcome="avanzarPrueba"/>
+  <links id="pf161257421903957" target="pf161257421903952" source="pf161257421903963" outcome="avanzarPrueba"/>
+  <links id="pf161257421903958" target="pf161257421903952" source="pf161257421903968" outcome="avanzarPrueba"/>
+  <links id="pf161257421903959" target="pf161257421903952" source="pf161257421903970" outcome="avanzarPrueba"/>
+  <links id="pf161257421903936" target="pf161257421903952" source="pf161257421903934" outcome="avanzarPrueba"/>
+  <links id="pf161257421903921" target="pf161257421903952" source="pf161257421903919" outcome="avanzarPrueba"/>
+  <links id="pf16125742190382" target="pf161257421903952" source="pf16125742190380" outcome="avanzarPrueba"/>
+  <links id="pf161257421903950" target="pf161257421903963" source="pf161257421903948" outcome="avanzarNosotros"/>
+  <links id="pf161257421903961" target="pf161257421903963" source="pf161257421903960" outcome="avanzarNosotros"/>
+  <links id="pf161257421903966" target="pf161257421903963" source="pf161257421903968" outcome="avanzarNosotros"/>
+  <links id="pf161257421903967" target="pf161257421903963" source="pf161257421903970" outcome="avanzarNosotros"/>
+  <links id="pf161257421903937" target="pf161257421903963" source="pf161257421903934" outcome="avanzarNosotros"/>
+  <links id="pf161257421903922" target="pf161257421903963" source="pf161257421903919" outcome="avanzarNosotros"/>
+  <links id="pf16125742190393" target="pf161257421903963" source="pf16125742190380" outcome="avanzarNosotros"/>
+  <links id="pf161257421903954" target="pf161257421903963" source="pf161257421903952" outcome="avanzarNosotros"/>
+  <links id="pf16125742190399" target="pf16125742190380" source="pf161257421903948" outcome="avanzarRegistro"/>
+  <links id="pf161257421903910" target="pf16125742190380" source="pf161257421903960" outcome="avanzarRegistro"/>
+  <links id="pf161257421903911" target="pf16125742190380" source="pf161257421903963" outcome="avanzarRegistro"/>
+  <links id="pf161257421903912" target="pf16125742190380" source="pf161257421903968" outcome="avanzarRegistro"/>
+  <links id="pf161257421903913" target="pf16125742190380" source="pf161257421903970" outcome="avanzarRegistro"/>
+  <links id="pf161257421903914" target="pf16125742190380" source="pf161257421903934" outcome="avanzarRegistro"/>
+  <links id="pf161257421903915" target="pf16125742190380" source="pf161257421903919" outcome="avanzarRegistro"/>
+  <links id="pf161257421903916" target="pf16125742190380" source="pf161257421903952" outcome="avanzarRegistro"/>
+  <links id="pf161257421903926" target="pf161257421903919" source="pf161257421903948" outcome="avanzarLogin"/>
+  <links id="pf161257421903927" target="pf161257421903919" source="pf161257421903960" outcome="avanzarLogin"/>
+  <links id="pf161257421903928" target="pf161257421903919" source="pf161257421903963" outcome="avanzarLogin"/>
+  <links id="pf161257421903929" target="pf161257421903919" source="pf161257421903968" outcome="avanzarLogin"/>
+  <links id="pf161257421903930" target="pf161257421903919" source="pf161257421903970" outcome="avanzarLogin"/>
+  <links id="pf161257421903931" target="pf161257421903919" source="pf161257421903934" outcome="avanzarLogin"/>
+  <links id="pf16125742190395" target="pf161257421903919" source="pf16125742190380" outcome="avanzarLogin"/>
+  <links id="pf161257421903932" target="pf161257421903919" source="pf161257421903952" outcome="avanzarLogin"/>
+  <links id="pf161257421903941" target="pf161257421903934" source="pf161257421903948" outcome="avanzarFormulario"/>
+  <links id="pf161257421903942" target="pf161257421903934" source="pf161257421903960" outcome="avanzarFormulario"/>
+  <links id="pf161257421903943" target="pf161257421903934" source="pf161257421903963" outcome="avanzarFormulario"/>
+  <links id="pf161257421903944" target="pf161257421903934" source="pf161257421903968" outcome="avanzarFormulario"/>
+  <links id="pf161257421903945" target="pf161257421903934" source="pf161257421903970" outcome="avanzarFormulario"/>
+  <links id="pf161257421903924" target="pf161257421903934" source="pf161257421903919" outcome="avanzarFormulario"/>
+  <links id="pf16125742190396" target="pf161257421903934" source="pf16125742190380" outcome="avanzarFormulario"/>
+  <links id="pf161257421903946" target="pf161257421903934" source="pf161257421903952" outcome="avanzarFormulario"/>
+  <links id="pf161257421903951" target="pf161257421903972" source="pf161257421903948" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903962" target="pf161257421903972" source="pf161257421903960" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903965" target="pf161257421903972" source="pf161257421903963" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903969" target="pf161257421903972" source="pf161257421903968" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903971" target="pf161257421903972" source="pf161257421903970" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903939" target="pf161257421903972" source="pf161257421903934" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903925" target="pf161257421903972" source="pf161257421903919" outcome="avanzarPresentacion"/>
+  <links id="pf16125742190397" target="pf161257421903972" source="pf16125742190380" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903955" target="pf161257421903972" source="pf161257421903952" outcome="avanzarPresentacion"/>
+  <links id="pf161257421903953" target="pf161257421903952" source="pf161257421903952" outcome="avanzarPrueba">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf161257421903964" target="pf161257421903963" source="pf161257421903963" outcome="avanzarNosotros">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf16125742190394" target="pf16125742190380" source="pf16125742190380" outcome="avanzarRegistro">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf161257421903923" target="pf161257421903919" source="pf161257421903919" outcome="avanzarLogin">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf161257421903938" target="pf161257421903934" source="pf161257421903934" outcome="avanzarFormulario">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf161257421903973" target="pf161257421903972" source="pf161257421903972" outcome="avanzarPresentacion">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+</pageflow:Pageflow>
